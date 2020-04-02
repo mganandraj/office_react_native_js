@@ -1,0 +1,30 @@
+{
+  "name": "simple",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "bundle": "node bundle.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@types/cross-spawn": "^6.0.1",
+    "react": "^16.8.6",
+    "react-native": "^0.60.0-microsoft.63"
+  },
+  "devDependencies": {
+    "@office-iss/sdx-build-tools": "^0.5.244",
+    "cross-spawn": "^7.0.1"
+  }
+  ,
+  "nativeBundles": {
+    "sources": [
+      "index"
+    ],
+    "platformBundleEnabled": {
+      "build": false,
+      "server": false
+    }
+  }
+}
